@@ -5,7 +5,7 @@ const compiledFactory = require('./build/CampaignFactory.json');
 const provider = new HDWalletProvider(
   'urge apology energy frost palace thought snap elder rule before cupboard quit',
   // remember to change this to your own phrase!
-  'https://rinkeby.infura.io/v3/042135ce7aef4fbe9a0fa6c9f85d0708'
+  'https://goerli.infura.io/v3/042135ce7aef4fbe9a0fa6c9f85d0708'
 );
 
 const web3 = new Web3(provider);
